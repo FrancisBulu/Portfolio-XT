@@ -1,0 +1,36 @@
+/* css variables */
+@import url(./partials/_variables.css);
+@import url(./partials/_globals.css);
+
+
+/* svg images */
+
+.site-main .site-banner .banner-image>svg {
+    /* background: var(--gradient-color2); */
+
+}
+
+.site-main .site-banner .banner-image svg>svg2 {
+    background: var(--text-color2);
+}
+#svg1{
+    background: url(../img/svg1.svg) no-repeat;
+    height: 40rem;
+    margin: 5rem 3rem 0 0;
+}
+#svg2{
+    background: url(../img/svg3.svg) no-repeat;
+    height:50rem;
+   
+}
+#puz{
+    background: url(../img/puz.svg) no-repeat;
+    height:10rem;
+    margin-left: 15%;
+   
+}
+#banner{
+    background-repeat: no-repeat;
+    height: 40rem;
+    margin: 5rem 3rem 0 0;
+}

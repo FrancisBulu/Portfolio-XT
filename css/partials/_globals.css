@@ -1,0 +1,65 @@
+/* global classes */
+.title-text {
+    font: normal bold 50px/72px;
+    color: var(--gradient-color3);
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/* buttons */
+
+.button {
+    padding: .8rem 3.2rem;
+    font: normal 500 16px/20px var(--exo2);
+    position: relative;
+    border: 4px solid transparent;
+    border-radius: 40px;
+    margin-right: .8rem;
+}
+
+.button.primary-button {
+    background: var(--gradient-color3);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+
+}
+
+.button.primary-button:hover{
+     background: whitesmoke;
+     background-clip: padding-box;
+     color: black;
+}
+
+.button.primary-button::after, .button.secondary-button::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px; right: -2px;
+    background: var(--gradient-color3);
+    content: '';
+    z-index: -1;
+    border-radius: 40px;
+}
+
+.button.secondary-button{
+    background: var(--gradient-color4);
+    background-clip: padding-box;
+    transition: background .6s ease;
+    color: var(--text-color2);
+}
+
+.button.secondary-button:hover{
+    background: var(--gradient-color3);
+    background-clip: padding-box;
+    color: whitesmoke;
+    box-shadow: var(--box-shadow);
+}
+
+p.para{
+    color: var(--text-color);
+    font: normal 500 16px/25px var(--exo2);
+}
+
