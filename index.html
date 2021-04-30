@@ -21,6 +21,7 @@
 </head>
 
 <body>
+    <button id="back-to-top" class="fas fa-chevron-up"></button>
     <!-- =========================================== start header area ================================================= -->
 
     <header class="header_area">
@@ -30,7 +31,7 @@
                 <div class="container-fluid">
                     <a class="navbar-skills" href="#"><br><strong></strong></a>
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <button class="navbar-toggler ml-auto hidden-sm-up float-xs-right " type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -42,13 +43,16 @@
                                 <a class="nav-link active lineThrough" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item lineThrough">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#about_me">About</a>
                             </li>
                             <li class="nav-item lineThrough">
-                                <a class="nav-link" href="#">Skills</a>
+                                <a class="nav-link" href="#my_skills">Skills</a>
                             </li>
                             <li class="nav-item lineThrough">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#my_experience">Experience</a>
+                            </li>
+                            <li class="nav-item lineThrough">
+                                <a class="nav-link" href="#my_contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -88,6 +92,15 @@
         </section>
 
         <!-- ========================================== end banner area ================================================= -->
+        <!-- parallax -->
+        <div class="container-fluid">
+            <div class="parallax text-uppercase">
+                <div class="row">
+                    <h1 id="about_me"><i class="fas fa-address-card fa-xs fa-fw"></i> About me</h1>
+                </div>
+            </div>
+        </div>
+        <!-- end parallax -->
         <!-- =================================== start about area ====================================== -->
 
         <section class="about-area">
@@ -100,29 +113,25 @@
                     </div>
                     <div class="col-lg-6 col-md-12 about-title">
                         <h2 class="text-uppercase pt-0">
-                            <span><i class="fas fa-address-card fa-xs fa-fw"></i>About me</span>
+                            <span>My mindset</span>
                         </h2>
                         <div class="paragraph py-4 w-80">
                             <p class="para">
-                                <i class="fas fa-dot-circle"></i>Lorem ipsum dolor sit amet consectetur adipisicing
-                                elit. Ducimus consectetur porro
-                                provident dolor, enim quas incidunt odio illo explicabo dicta?
+                                <i class="fas fa-dot-circle"></i>I am a passionate about IT solutions of all kind, from
+                                backend to frontend and software to hardware. I always strive to give the best and
+                                reliable solution on a given technical problem.
+                                'Problem solving' is the blueprint of my mindset.
                             </p>
                             <p class="para">
-                                <i class="fas fa-dot-circle"></i>Lorem ipsum dolor sit amet consectetur adipisicing
-                                elit. Qui, itaque eveniet amet
-                                necessitatibus quasi non nisi inventore est sequi pariatur delectus dolores
-                                consequuntur, nulla doloribus vero sapiente. Quibusdam ratione libero doloremque
-                                laboriosam blanditiis sit, est mollitia eius, dolores illo delectus tenetur perspiciatis
+                                <i class="fas fa-dot-circle"></i>Constantly learning new ways and tools to
+                                fix IT issues, i am eager to learn new technologies. I achieved a lot of goals in my
+                                career path by acquiring knowledge by myself or by seizing opportunities in the
+                                workplaces.
                             </p>
                             <p class="para">
-                                <i class="fas fa-dot-circle"></i>reprehenderit error optio voluptate rerum quasi totam
-                                minus! Cupiditate quisquam
-                                aspernatur eveniet in laborum necessitatibus quod magnam maiores doloribus,
-                                reprehenderit adipisci assumenda molestias nam? Facere, perspiciatis fugit rem, repellat
-                                placeat dolorum natus obcaecati eum esse libero et facilis molestias minima ut expedita
-                                iure suscipit. Dolorum a ipsa magni ullam ad similique temporibus fugiat sint eveniet
-                                necessitatibus. Non, adipisci.
+                                <i class="fas fa-dot-circle"></i>My vision is sharp, natural and logical: 'If I had an
+                                hour to solve a problem I'd spend 55 minutes thinking about the problem and 5 minutes
+                                thinking about solutions.' <span>(Albert Einstein)</span>
                             </p>
                         </div>
                         <button type="button" class="btn button primary-button text-uppercase">Download CV</button>
@@ -134,6 +143,15 @@
             </div>
         </section>
         <!-- =================================== end about area ====================================== -->
+        <!-- parallax -->
+        <div class="container-fluid">
+            <div class="parallax text-uppercase">
+                <div class="row">
+                    <h1 id="my_skills"><i class="fas fa-dice-d20 fa-xs fa-fw"></i> Skills</h1>
+                </div>
+            </div>
+        </div>
+        <!-- end parallax -->
 
         <!-- ==================================== start skills area ============================================ -->
 
@@ -223,64 +241,76 @@
 
                     <div class="col-xl-6 col-lg-12 col-md-12 about-title">
                         <h2 class="text-uppercase pt-5">
-                            <span><i class="fas fa-dice-d20 fa-xs fa-fw"></i>My Skills</span>
+                            <span>Tools / languages</span>
                         </h2>
                         <div class="paragraph py-4 w-75">
                             <p class="para">
-                                <i class="fas fa-dot-circle"></i>Lorem ipsum dolor sit amet consectetur adipisicing
-                                elit. Ducimus consectetur porro
-                                provident dolor, enim quas incidunt odio illo explicabo dicta?
+                                <i class="fas fa-dot-circle"></i>Hier you can find the most relevant tools and languages
+                                of my knowledge asset, acquired for frontend and backend programming.
                             </p>
                             <p class="para">
-                                <i class="fas fa-dot-circle"></i>Lorem ipsum dolor sit amet consectetur adipisicing
-                                elit. Qui, itaque eveniet amet
-                                necessitatibus quasi non nisi inventore est sequi pariatur delectus dolores
-                                consequuntur, nulla doloribus vero sapiente. Quibusdam ratione libero doloremque
-                                laboriosam blanditiis sit, est mollitia eius, dolores illo delectus tenetur perspiciatis
+                                <i class="fas fa-dot-circle"></i>I welcome the chance to meet with you in person to discuss my qualifications and competences.
+                            </p>
+                            
+                        </div>
+                        <h2 class="text-uppercase pt-5">
+                            <span>Educations</span>
+                        </h2>
+                        <div class="paragraph py-4 w-75">
+                            <p class="para">
+                                <i class="fas fa-dot-circle"></i>I started with a post-graduation in IT management for enterprise. Then i grabbed SAP certifications (MM, FI and BI).
                             </p>
                             <p class="para">
-                                <i class="fas fa-dot-circle"></i>reprehenderit error optio voluptate rerum quasi totam
-                                minus! Cupiditate quisquam
-                                aspernatur eveniet in laborum necessitatibus quod magnam maiores doloribus,
-                                reprehenderit adipisci assumenda molestias nam? Facere, perspiciatis fugit rem, repellat
-                                placeat dolorum natus obcaecati eum esse libero et facilis molestias minima ut expedita
-                                iure suscipit. Dolorum a ipsa magni ullam ad similique temporibus fugiat sint eveniet
-                                necessitatibus. Non, adipisci.
+                                <i class="fas fa-dot-circle"></i>I welcome the chance to meet with you in person to discuss my qualifications and competences.
                             </p>
-                        </div> 
+                            <p class="para">
+                                <i class="fas fa-dot-circle"></i>You can see all in details on my CV.
+                            </p>
+                        </div>
                         <div id="puz"></div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- ==================================== end skills area ============================================ -->
+        <!-- parallax -->
+        <div class="container-fluid">
+            <div class="parallax text-uppercase">
+                <div class="row">
+                    <div class="col-5">
+                        <h1 id="my_experience"><i class="fas fa-briefcase fa-xs fa-fw"></i> Experience</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end parallax -->
         <!-- ========================================= start services area ================================================== -->
         <section class="services-area">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center services-title">
-                         <h1 class="text-uppercase title-text">Experiences</h1>
-                         <p class="para">
-                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolores qui commodi magni, aspernatur eos ad in inventore! Voluptatibus soluta nemo amet magnam iure possimus libero voluptatem tempore atque illum, quasi, dolorum nobis doloremque eveniet doloribus, nostrum quas? Veniam dolorum perspiciatis nulla accusantium eveniet repellendus sapiente officia, officiis aut corrupti.
-                         </p>
+
+                        <p class="para">
+                            An overview of my profesional experiences and achievements.
+                        </p>
                     </div>
                 </div>
                 <div class="container services-list">
                     <div class="row">
-                         <div class="col-lg-3 col-md-6 col-sm-12">
-                             <div class="services">
-                                 <div class="services-img text-center py-4">
-                                     <img src="./img/services/s1.svg" alt="services-1">
-                                 </div>
-                                 <div class="card-body text-center">
-                                     <h5 class="card-title text-uppercase font-exo2">.Net developer</h5>
-                                     <p class="card-text text-secondary">
-                                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati corporis nihil at!
-                                     </p>
-                                 </div>
-                             </div>
-                         </div>
-                         <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="services-img text-center py-4">
+                                    <img src="./img/services/s1.svg" alt="services-1">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-exo2">.Net developer</h5>
+                                    <p class="card-text text-secondary">
+                                        Currently on an intensive learning to become a solid programer
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
                             <div class="services">
                                 <div class="services-img text-center py-4">
                                     <img src="./img/services/s2.svg" alt="services-2">
@@ -288,7 +318,7 @@
                                 <div class="card-body text-center">
                                     <h5 class="card-title text-uppercase font-exo2">Web publisher</h5>
                                     <p class="card-text text-secondary">
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati corporis nihil at!
+                                        I worked as web e-publisher and web editor for BNP-Paribas and Belgacom.
                                     </p>
                                 </div>
                             </div>
@@ -301,7 +331,7 @@
                                 <div class="card-body text-center">
                                     <h5 class="card-title text-uppercase font-exo2">Web designer</h5>
                                     <p class="card-text text-secondary">
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati corporis nihil at!
+                                        I worked as web designer for AG Insurance and as freelancer for Excsys.
                                     </p>
                                 </div>
                             </div>
@@ -314,7 +344,34 @@
                                 <div class="card-body text-center">
                                     <h5 class="card-title text-uppercase font-exo2">Graphic designer</h5>
                                     <p class="card-text text-secondary">
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati corporis nihil at!
+                                        I worked as graphic designer for Primo Group, where creativity was the key to
+                                        succeed.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="services-img text-center py-4">
+                                    <img src="./img/services/s5.svg" alt="services-4">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-exo2">Technical Helpdesk</h5>
+                                    <p class="card-text text-secondary">
+                                        I worked as Technical Helpdesk for Just Software, where i was involved to fix issues, online, to the users of the selfmade ERP software.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="services-img text-center py-4">
+                                    <img src="./img/services/s6.svg" alt="services-4">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-exo2">SAP Consultant</h5>
+                                    <p class="card-text text-secondary">
+                                        I grabbed 3 SAP certifications for MM, FI and BI.
                                     </p>
                                 </div>
                             </div>
@@ -326,14 +383,13 @@
         <!-- ========================================= end services area ================================================== -->
         <!-- parallax -->
         <div class="container-fluid">
-            <div class="parallax">
+            <div class="parallax text-uppercase">
                 <div class="row">
-                    <div class="col-1">
-                        
+
+                    <div class="col-5">
+                        <h1 id="my_contact"><i class="fas fa-envelope fa-xs fa-fw"></i> Contact me</h1>
                     </div>
-                    <div class="col-5"><h1>Contact</h1></div>
-                    <div class="col-2"></div>
-                    <div class="col-4"></div>
+
                 </div>
             </div>
         </div>
@@ -342,10 +398,67 @@
         <!-- ============================================ contact form ============================================================ -->
         <section class="contact-area">
             <div class="container">
-                <div class="row mt-5 mb-5"></div>
+                <div class="row mt-5 mb-5">
+                    <div class="col-4">
+                        <h2 class="mail-me">Mail me</h2>
+                        <p>
+                            Thank you for your interest and your time spent reading my resume. I am at your disposal for further information or more. Please keep me in touch.
+                        </p>
+                        <p>Best regards.</p>
+                    </div>
+                    <div class="form">
+                        <div class="form-heading">Provide your information</div>
+                        <h3 class="title-text"><i class="fas fa-dot-circle fa-xs"></i></h3>
+                        <form action="" method="post">
+                            <label for="field1"><span>Name <span class="required">*</span></span><input type="text"
+                                    class="input-field" name="field1" value="" /></label>
+                            <label for="field2"><span>Email <span class="required">*</span></span><input type="text"
+                                    class="input-field" name="field2" value="" /></label>
+                            <label><span>Telephone</span><input type="text" class="tel-number-field" name="tel_no_1"
+                                    value="" maxlength="4" />-<input type="text" class="tel-number-field"
+                                    name="tel_no_2" value="" maxlength="4" />-<input type="text"
+                                    class="tel-number-field" name="tel_no_3" value="" maxlength="10" /></label>
+                            <label for="field4"><span>Regarding</span><select name="field4" class="select-field">
+                                    <option value="General Question">Hiring</option>
+                                    <option value="Advertise">Job</option>
+                                    <option value="Partnership">General</option>
+                                </select></label>
+                            <label for="field5"><span>Message <span class="required">*</span></span><textarea
+                                    name="field5" class="textarea-field"></textarea></label>
+                            <label><span> </span><input type="submit" value="Send" /></label>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- ============================================ end contact form ============================================================ -->
+
+        <!-- =================================================== footer area ===================================================== -->
+        <footer class="footer-area">
+            <div class="row">
+                <div class="col-4-lg col-4-md co-12-sm">
+                    <section class="about-me">
+                        <div class="site-logo">
+                            <img src="./img/logoW.svg" alt="logo" class="footer-logo">
+                            <p class="para-footer">
+                                My vision is sharp, natural and logical: 'If I had an hour to solve a problem I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions.' <br>(Albert Einstein)
+                            </p>
+                        </div>
+                        <div class="social-media">
+                            <a href="#" class="text-primary"><span class="fab fa-linkedin-in"></span></a>
+                            <a href="#" class="text-primary"><span class="fab fa-github"></span></a>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-4-lg col-4-md co-12-sm"></div>
+                <div class="col-4-lg col-4-md co-12-sm"></div>
+            </div>
+        </footer>
+
+        <!-- =================================================== end footer area ===================================================== -->
+
+
+
     </main>
     <!-- ========================================== end main area ================================================== -->
 
@@ -354,7 +467,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
     </script>
-    <!-- scrpt for random background -->
+    <!-- script for random background -->
     <script type="text/javascript" src="./js/random.js"></script>
+    <script type="text/javascript" src="./js/top.js"></script>
+</body>
 
 </html>

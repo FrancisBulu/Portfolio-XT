@@ -5,22 +5,19 @@
 
 /* svg images */
 
-.site-main .site-banner .banner-image>svg {
-    /* background: var(--gradient-color2); */
 
-}
 
 .site-main .site-banner .banner-image svg>svg2 {
     background: var(--text-color2);
 }
 #svg1{
     background: url(../img/svg1.svg) no-repeat;
-    height: 40rem;
+    height: 20rem;
     margin: 5rem 3rem 0 0;
 }
 #svg2{
     background: url(../img/svg3.svg) no-repeat;
-    height:50rem;
+    height:30rem;
    
 }
 #puz{
@@ -31,6 +28,6 @@
 }
 #banner{
     background-repeat: no-repeat;
-    height: 40rem;
+    height: 30rem;
     margin: 5rem 3rem 0 0;
 }
